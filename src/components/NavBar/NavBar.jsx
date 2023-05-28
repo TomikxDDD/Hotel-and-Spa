@@ -14,8 +14,8 @@ const NavBar = ({ isLoggedIn }) => {
             />
       </Link>
       <Link to='/about' className='nav__a'> About us </Link>
-      <Link to='/' className='nav__a'> Be our partner </Link>
-      <Link to='/' className='nav__a'> Contact us </Link>
+      <Link to='/partner' className='nav__a'> Be our partner </Link>
+      <Link to='/contact' className='nav__a'> Contact us </Link>
       {isLoggedIn && <Link to='/account' className='nav__a'> 
         <div className="">
           <img
