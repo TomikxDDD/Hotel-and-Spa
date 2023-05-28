@@ -1,0 +1,67 @@
+.languages,
+.languages-select{
+  width: 10rem;
+  color: black;
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 0.125rem;
+  padding-left: 0.5rem;
+  background-color: white;
+  margin: 0;
+  cursor: pointer;
+}
+
+.languages-select{
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.languages:hover{
+  box-shadow: 0px 0px 5px gray;
+}
+
+.language-select-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.languages-select-arrow-container{
+  background-color: lightgray;
+  padding: 0.5em;
+}
+
+
+
+.languages-select__ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.languages-select__li{
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  transition: 0.3s ease;
+}
+
+.languages-select__li:hover{
+  background-color: blue;
+  color: white;
+}
+
+.languages-select__li + .languages-select__li{
+  padding-top: 0.25em;  
+}
+
+.languages__img{
+  width: 2rem;
+  margin-right: 0.5em;
+}
+
+.languages__p{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}

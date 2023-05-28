@@ -1,0 +1,8 @@
+.footer-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col{
+  width: 30%;
+}

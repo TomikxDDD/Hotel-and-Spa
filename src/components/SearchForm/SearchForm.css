@@ -1,0 +1,131 @@
+.tabs{
+  margin-top: -7rem;
+  display: flex;
+}
+.tab{
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.tab-top-strip{
+  height: 0.25em;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+.active-strip{
+  background-color: var(--clr-theme-dark-yellow);
+  
+}
+
+.tab-span{
+  display: block;
+  padding: 1em 2em;
+  background-color: var(--clr-theme-blue);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.tab .active{
+  background-color: rgb(239, 239, 239);;
+  color: var(--clr-theme-blue);
+}
+
+.tab:hover .tab-top-strip{
+  background-color: var(--clr-theme-dark-yellow);
+} 
+
+.tab:hover .tab-span {
+  color: var(--clr-theme-dark-yellow);
+}
+
+.search-form-grid{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  gap: 1.25em 0.5em;
+  padding: 1em;
+  color: var(--clr-theme-blue);
+}
+
+#destination{
+  grid-column: 2/5;
+}
+
+#type{
+  grid-column: 6/9;
+}
+
+.search-form{
+  background-color: rgb(239, 239, 239);
+  padding: 1em;
+}
+
+.search-form input,
+.search-form select{
+  border: none;
+  padding: 0.5em 0 0.5em 1em;
+  font-size: 1.125rem;
+  align-content: center;
+  cursor: pointer;
+}
+
+.search-form select option{
+  color: black;
+}
+
+.search-form select:invalid{
+  color: rgb(180,180,180);
+}
+
+.search-form label,
+.more-options-search__p{
+  font-size: 1.125rem;
+  font-weight: 600;
+
+}
+
+.search-form label{
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.more-options-search{
+  padding: 1em;
+}
+
+.more-options-search__p{
+  text-decoration: underline;
+  padding-left: 2em;
+  cursor: pointer;
+}
+
+.icon-down-arrow{
+  transform: rotate(90deg);
+  margin-left: 1em;
+}
+
+.btn-search{
+  border: none;
+  background-color: var(--clr-theme-blue);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.25em 1.0em;
+  border-radius: 0.25em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-search:hover{
+  opacity: 0.8;
+}
+
+.icon-magnify{
+  height: 2rem;
+  transform: rotateY(180deg);
+}

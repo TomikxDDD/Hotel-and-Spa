@@ -1,0 +1,16 @@
+.footer{
+  background-color: #04346c;
+  color: white;
+  margin: 0;
+  padding: 2em 0;
+}
+
+.footer__h2{
+  margin-top: 0;
+  color: var(--clr-theme-yellow);
+  font-size: 1.5rem;
+}
+
+.footer__p{
+  margin: 0;
+}

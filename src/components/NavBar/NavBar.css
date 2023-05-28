@@ -1,0 +1,22 @@
+.nav__a{
+  margin: 0;
+  position: relative;
+  color: rgba(4, 53, 108, 1);
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: inline-block;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  border-right: 1px solid lightgray;
+  transition: background-color 0.3s ease;
+}
+
+.nav__a:hover{
+  /* color: white; */
+  background-color: var(--clr-theme-yellow);
+}
+
+.icon-home{
+  margin: 0;
+  padding: 0;
+}

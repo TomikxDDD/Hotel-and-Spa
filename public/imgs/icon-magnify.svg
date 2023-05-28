@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 422" width="420" height="422">
+	<title>Vector Smart Object-ai</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m5 7h409.92v410h-409.92z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Clip Group&gt;" clip-path="url(#cp1)">
+				<path id="&lt;Compound Path&gt;" class="s0" d="m403.4 351.1l-94-94c-14 21.8-32.5 40.3-54.3 54.3l94 94c15 15 39.3 15 54.3 0 15-15 15-39.3 0-54.3z"/>
+			</g>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m158.6 314.2c-84.8 0-153.6-68.8-153.6-153.6 0-84.8 68.8-153.6 153.6-153.6 84.8 0 153.6 68.8 153.6 153.6 0 84.8-68.8 153.6-153.6 153.6zm115.2-153.6c0-63.5-51.7-115.2-115.2-115.2-63.5 0-115.2 51.7-115.2 115.2 0 63.5 51.7 115.2 115.2 115.2 63.5 0 115.2-51.7 115.2-115.2z"/>
+			<path id="&lt;Compound Path&gt;" class="s0" d="m69 160.6h25.6c0-35.3 28.7-64 64-64v-25.6c-49.4 0-89.6 40.2-89.6 89.6z"/>
+		</g>
+	</g>
+</svg>

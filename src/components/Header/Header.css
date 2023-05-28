@@ -1,0 +1,64 @@
+:root{
+  --logo-width: 300px
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  width: var(--logo-width);
+}
+
+.row-header{
+  display: flex;
+}
+
+.col-header-logo{
+  width: var(--logo-width);
+}
+
+.col-header-nav{
+  width: calc(100% - var(--logo-width));
+}
+
+.header__contact{
+  text-align: right;
+  padding: 0.5em 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.contact{
+  color: rgba(4, 53, 108, 1);
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+.email__a{
+  color: rgba(4, 53, 108, 1);
+  text-decoration: none;
+}
+
+.icon{
+  height: 1.0rem;
+  margin-right: 0.5rem;
+}
+
+.language__select{
+  padding: 0.25em 0.5em;
+  /* padding-left: 2rem; */
+}
+
+.language__select option{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+}
+
+.language__select option[value="en"] {
+  background: url("../../../public/imgs/flags/united-kingdom.png");
+}
+.language__select option[value="cz"] {
+  background: url("../../../public/imgs/flags/czech-republic.png");
+}
+.language__select option[value="svk"] {
+  background: url("../../../public/imgs/flags/slovakia.png");
+}

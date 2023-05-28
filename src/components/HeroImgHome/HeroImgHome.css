@@ -1,0 +1,49 @@
+/* Hero image */
+.hero-img-home {
+  min-height: 75vh;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  background-image: url("../../../public/imgs/home-background.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.headings-container{
+  display: flex;
+  justify-content: center;
+}
+
+.headings{
+  text-align: left;
+  font-family: 'Marcellus', serif;
+  padding: 3em;
+  text-transform: uppercase;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.headings__h1{
+  font-size: 3rem;
+  margin: 0;
+}
+
+.headings__h1-first-letter{
+  font-size: 4rem;
+}
+
+.headings__h2{
+  font-size: 2rem;
+  margin: 0;
+}
+
+.headings__h2-first-letter{
+  font-size: 2.75rem;
+}
+
+.login-new-account{
+  display: flex;
+}

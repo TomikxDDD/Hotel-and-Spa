@@ -1,0 +1,19 @@
+.create-account-box{
+  background-color: rgba(4, 53, 108, 0.9);
+  max-width: 380px;
+  padding: 1em 2em;
+  text-align: left;
+}
+
+.create-account-box_h2,
+.create-account-box_h3{
+  color: #cdd3b7;
+}
+
+.indent-right{
+  text-align: right;
+}
+
+.create-account-box-info{
+  font-size: 0.75rem;
+}

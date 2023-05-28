@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+
+  --clr-theme-yellow: rgb(205, 211, 183);
+  --clr-theme-blue: rgb(4, 53, 108);
+  --clr-theme-dark-yellow: rgb(246, 173, 0);
+
+}
+
+.btn__home-page{
+  color: white;
+  background-color: #aaba06;  
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  font-size: 1.25rem;
+  border: 2px outset;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn__home-page:hover{
+  background-color: #788304;  
+  
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col{
+  width: 50%;
+}
+
+.attribution{
+  text-align: center;
+  color: black;
+}
+
