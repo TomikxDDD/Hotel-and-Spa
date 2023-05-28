@@ -1,0 +1,6 @@
+.not-found{
+  font-size: 4rem;
+  text-align: center;
+  padding: 5em 0;
+  color: var(--clr-theme-blue);
+}

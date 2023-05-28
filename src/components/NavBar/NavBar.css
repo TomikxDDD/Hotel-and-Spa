@@ -12,7 +12,6 @@
 }
 
 .nav__a:hover{
-  /* color: white; */
   background-color: var(--clr-theme-yellow);
 }
 

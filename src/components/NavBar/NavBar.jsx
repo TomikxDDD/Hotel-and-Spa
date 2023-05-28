@@ -8,7 +8,7 @@ const NavBar = ({ isLoggedIn }) => {
     <nav className='nav'>
       <Link to='/' className='nav__a'> 
         <img
-          src="../../../public/imgs/icon-home.svg"
+          src="../../../imgs/icon-home.svg"
           alt="Home symbol"
           className='icon icon-home'
             />
@@ -19,7 +19,7 @@ const NavBar = ({ isLoggedIn }) => {
       {isLoggedIn && <Link to='/account' className='nav__a'> 
         <div className="">
           <img
-            src="../../../public/imgs/icon-user.png"
+            src="../../../imgs/icon-user.png"
             alt="User symbol"
             className='icon icon-user'
               />
@@ -29,7 +29,7 @@ const NavBar = ({ isLoggedIn }) => {
       {isLoggedIn && <Link to='/' className='nav__a'> 
         <div className="">
           <img
-            src="../../../public/imgs/icon-logout.png"
+            src="../../../imgs/icon-logout.png"
             alt="Logout symbol"
             className='icon icon-logout'
               />

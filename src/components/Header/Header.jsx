@@ -19,7 +19,7 @@ const Header = ({ isLoggedIn }) => {
           <div className="row-header">
             <div className="col-header-logo">
               <img 
-                src="../../../public/imgs/spa-logo.svg" 
+                src="../../../imgs/spa-logo.svg" 
                 alt="Logo of hotel and spa" 
                 className="logo"/>
             </div>
@@ -27,7 +27,7 @@ const Header = ({ isLoggedIn }) => {
               <div className='header__contact'>
                 <span className='contact contact-phone'>
                   <img
-                    src="../../../public/imgs/icon-phone.png"
+                    src="../../../imgs/icon-phone.png"
                     alt="Telephone symbol"
                     className='icon icon-phone'
                       />
@@ -35,7 +35,7 @@ const Header = ({ isLoggedIn }) => {
                 </span>
                 <span className='contact contact-email'>
                   <img
-                    src="../../../public/imgs/icon-email.png"
+                    src="../../../imgs/icon-email.png"
                     alt="Email symbol (envelope)"
                     className='icon icon-email'
                       />

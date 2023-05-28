@@ -17,7 +17,7 @@ const SearchForm = () => {
         <div className="tab-top-strip"></div> 
           <span className='tab-span'>
             <img
-            src="../../../public/imgs/icon-send-task.svg"
+            src="../../../imgs/icon-send-task.svg"
             alt="Send task symbol - paper with mark"
             className='icon icon-send-task'
               />Send task</span>
@@ -105,14 +105,14 @@ const SearchForm = () => {
         <div className="row more-options-search">
           <p className='row more-options-search__p'>More Options
             <img
-            src="../../../public/imgs/icon-arrow-right.png"
+            src="../../../imgs/icon-arrow-right.png"
             alt="down arrow symbol"
             className='icon icon-down-arrow'
               /></p>
 
           <button className='btn-search row'>
             <img
-              src="../../../public/imgs/icon-magnify.svg"
+              src="../../../imgs/icon-magnify.svg"
               alt="Magnifying glass symbol"
               className='icon icon-magnify'
                 />

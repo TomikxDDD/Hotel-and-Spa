@@ -21,7 +21,7 @@ const SearchResult = ({ hotel, numOfNights, currency }) => {
               <h3 className='hotel__h3'>{hotel.name}</h3>
               <span className='hotel-num-of-stars'>{stars}</span>
               <img
-                src='../../../public/imgs/icon-like.png'
+                src='../../../imgs/icon-like.png'
                 alt='Photo of a hotel room with large bed'
                 className='icon icon-like' />
             </div>
@@ -36,7 +36,7 @@ const SearchResult = ({ hotel, numOfNights, currency }) => {
           <span className='hotel-pricing-price'>{(hotel.pricePerNight * numOfNights).toFixed(2)}</span>
           <span className='hotel-pricing-currency'> {currency}</span>
           <img
-            src='../../../public/imgs/icon-info-gray.svg'
+            src='../../../imgs/icon-info-gray.svg'
             alt='Photo of a hotel room with large bed'
             className='icon icon-info' />
         </p>
@@ -66,7 +66,7 @@ const SearchResult = ({ hotel, numOfNights, currency }) => {
             <td></td>
             <td className='row-table'>
               <img
-                src='../../../public/imgs/icon-magnify-blue.svg'
+                src='../../../imgs/icon-magnify-blue.svg'
                 alt='Search icon - magnifying glass'
                   className='icon icon-search-small' 
                     />Double or twine standard</td>
@@ -74,7 +74,7 @@ const SearchResult = ({ hotel, numOfNights, currency }) => {
             <td>21/12/2015 - 30/01/2016</td>
             <td className='row-table'>
               <img
-              src='../../../public/imgs/icon-info-yellow.svg'
+              src='../../../imgs/icon-info-yellow.svg'
               alt='Info icon'
               className='icon icon-info-small' 
                 /> from 25/12/2016</td>
@@ -82,7 +82,7 @@ const SearchResult = ({ hotel, numOfNights, currency }) => {
         </table>
         <p className='view-more row-view-more'>View more prices and board types
           <img
-            src='../../../public/imgs/icon-arrow-right.png'
+            src='../../../imgs/icon-arrow-right.png'
             alt='Arrow down icon'
             className='icon icon-arrow-down' 
               />

@@ -8,7 +8,7 @@ const LoginBox = () => {
     <div className='login-box'>
       <h2 className='login-box__h2'>
         <img 
-          src="../../../public/imgs/icon-login.png" 
+          src="../../../imgs/icon-login.png" 
           alt="Login symbol" 
           className='icon-login'
             /> Login into your account 

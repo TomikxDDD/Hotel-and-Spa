@@ -29,7 +29,7 @@ const SearchResults = () => {
         <span className='sort-by-price row'>
           Price 
           <img
-            src="../../../public/imgs/icon-arrow-right.png"
+            src="../../../imgs/icon-arrow-right.png"
             alt="Arrow up symbol"
             className='icon icon-arrow-up'
               />
@@ -38,7 +38,7 @@ const SearchResults = () => {
         <span className='sort-by-category row'>
           Category 
           <img
-            src="../../../public/imgs/icon-arrow-right.png"
+            src="../../../imgs/icon-arrow-right.png"
             alt="Arrow up symbol"
             className='icon icon-arrow-up'
               />
@@ -51,7 +51,7 @@ const SearchResults = () => {
       <div className="pagination">
         <div className="pagination-arrow pagination-arrow-left">
           <img
-            src="../../../public/imgs/icon-arrow-right.png"
+            src="../../../imgs/icon-arrow-right.png"
             alt="Arrow up symbol"
             className='icon icon-arrow-left'
               />
@@ -61,7 +61,7 @@ const SearchResults = () => {
         <div className="pagination-page page-3">3</div>
         <div className="pagination-arrow pagination-arrow-right">
           <img
-            src="../../../public/imgs/icon-arrow-right.png"
+            src="../../../imgs/icon-arrow-right.png"
             alt="Arrow up symbol"
             className='icon icon-arrow-right'
               />

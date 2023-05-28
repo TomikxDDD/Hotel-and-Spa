@@ -2,7 +2,7 @@
 .hero-img-results {
   min-height: 40vh;
 
-  background-image: url("../../../public/imgs/results-background.png");
+  background-image: url("../../../imgs/results-background.png");
   background-repeat: no-repeat;
   background-position: center center;
   /* background-attachment: fixed; */
