@@ -8,7 +8,7 @@ const LoginBox = () => {
     <div className='login-box'>
       <h2 className='login-box__h2'>
         <img 
-          src="../../../imgs/icon-login.png" 
+          src="../../../public/imgs/icon-login.png" 
           alt="Login symbol" 
           className='icon-login'
             /> Login into your account 
@@ -19,8 +19,7 @@ const LoginBox = () => {
         <div className='row'>
           <Link className='row a__forgotten-password' to={'/newPassword'}>Forget your password?</Link>
           
-          <button className='col btn__home-page' onClick={() => preventDefault()}><Link to='/results' className
-          ="btn__home-page__a"> login </Link></button>
+          <Link to='/results' className="col btn__home-page__a"><button className='btn__home-page' id="btn__login" onClick={() => preventDefault()}> login </button></Link>
         </div>
       </form>
     </div>

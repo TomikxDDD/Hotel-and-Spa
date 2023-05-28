@@ -34,6 +34,11 @@
 }
 
 .btn__home-page__a{
+  text-align: right;
   color: inherit;
   text-decoration: none;
+}
+
+#btn__login{
+  padding-inline: 2.25em;
 }
